@@ -1,8 +1,7 @@
 streamlit
 pandas
 google-generativeai
-python-dotenv
 PyPDF2
 langchain
-faiss-cpu
+faiss-cpu==1.7.4
 sentence-transformers
