@@ -1,11 +1,8 @@
 streamlit
 pandas
-google.generativeai
-warnings
-tempfile
-os
-dotenv
+google-generativeai
+python-dotenv
 PyPDF2
-langchain.text_splitter
-langchain.vectorstores
-langchain.embeddings
+langchain
+faiss-cpu
+sentence-transformers
