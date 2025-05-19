@@ -65,7 +65,7 @@ def get_vectorstore(text_chunks):
 
 
 def query_gemini(prompt, context):
-    model = genai.GenerativeModel("gemini-pro")
+    model = genai.GenerativeModel("gemini-1.5-flash")
     response = model.generate_content(f"Context: {context}\nQuestion: {prompt}")
     return response.text if response else "No response."
 
